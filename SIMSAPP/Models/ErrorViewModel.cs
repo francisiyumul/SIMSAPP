@@ -7,5 +7,10 @@ namespace SIMSAPP.Models
         public string RequestId { get; set; }
         //TEST
         public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+
+        public void GetOn()
+        {
+
+        }
     }
 }
